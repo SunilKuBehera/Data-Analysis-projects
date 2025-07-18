@@ -24,13 +24,13 @@ This project focuses on analyzing Zomato's sales data to uncover patterns and in
 ## Dataset
 
 - The dataset contains order-level details from Zomato, including:
-  - Order ID
-  - Customer details
-  - Item details
-  - Order date and time
-  - Sales amount
-  - Location (city, state)
-  - Payment type
+  - name
+  - online_order
+  - book_table
+  - rate
+  - votes
+  - approx_cost(for two people)
+  - listed_in(type)
 
 > **Note:** The dataset is for educational purposes and may be anonymized.
 
@@ -48,11 +48,9 @@ This project focuses on analyzing Zomato's sales data to uncover patterns and in
 - Data cleaning and preprocessing
 - Handling missing values and outliers
 - Descriptive statistics
-- Time series analysis (monthly, weekly, daily sales)
 - Product and category performance analysis
 - Customer segmentation
 - Geographical analysis of orders
-- Payment methods analysis
 - Data visualization with matplotlib and seaborn
 
 ## Key Insights
